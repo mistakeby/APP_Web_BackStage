@@ -8,12 +8,15 @@ import lombok.experimental.Accessors;
 
 @Data
 @Accessors(chain = true)
-@TableName("dailylog_common")
-public class DailyLog_Common extends BasePojo{
-
-   private static final long serialVersionUID = 4855876462193403642L;
+@TableName("dailylog_submit")
+public class DailyLogSubmit extends BasePojo {
+    private static final long serialVersionUID = -1130731057199962292L;
     @TableId(value = "id", type = IdType.AUTO)
     private Long id;
-    private String name;
+    private String userid;
+    private String username;
+    private String date;
     private String content;
+    private String level;
+    private String open;
 }

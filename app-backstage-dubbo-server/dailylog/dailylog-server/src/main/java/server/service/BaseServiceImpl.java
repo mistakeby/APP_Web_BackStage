@@ -91,7 +91,6 @@ public abstract class BaseServiceImpl<T extends BasePojo> {
      * @return
      */
     public Integer save(T record) {
-
         return this.mapper.insert(record);
     }
 

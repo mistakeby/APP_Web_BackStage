@@ -1,5 +1,6 @@
 package server.service.api;
 
+import pojo.DailyLogSubmit;
 import pojo.DailyLog_Common;
 
 import java.util.List;

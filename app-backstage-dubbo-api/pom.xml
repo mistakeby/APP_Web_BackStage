@@ -21,6 +21,11 @@
             <groupId>com.zzn</groupId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.zzn</groupId>
+            <artifactId>sdk</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>
