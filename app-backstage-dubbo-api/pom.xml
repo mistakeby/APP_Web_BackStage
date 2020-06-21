@@ -26,6 +26,17 @@
             <artifactId>sdk</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.zzn</groupId>
+            <artifactId>DataManagementSDK</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zzn</groupId>
+            <artifactId>AuthoritySDK</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
 </project>

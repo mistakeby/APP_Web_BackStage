@@ -14,6 +14,8 @@
     <modules>
         <module>dailylog</module>
         <module>personal-information</module>
+        <module>DataManagement</module>
+        <module>Authority</module>
     </modules>
     <dependencies>
         <dependency>

@@ -5,8 +5,14 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@MapperScan({"server.mapper","server.dailysubmitmapper"})
+@MapperScan({"server.PageMapper","server.SelectMapper"})
 @Configuration
 public class MybatisConfig {
+    @Bean
+    public PaginationInterceptor paginationInterceptor() {
+        PaginationInterceptor page = new PaginationInterceptor();
+        page.setDialectType("mysql");
+        return page;
+    }
 
 }
