@@ -16,6 +16,7 @@
         <module>personal-information</module>
         <module>DataManagement</module>
         <module>Authority</module>
+        <module>websocket</module>
     </modules>
     <dependencies>
         <dependency>
